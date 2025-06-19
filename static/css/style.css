@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#drawingCanvas {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    cursor: crosshair;
+    touch-action: none;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.result-container {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#confidence {
+    color: #7f8c8d;
+}
+
+.instructions {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.instructions h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 5px;
+}
+
+.debug-info {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+
+.debug-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#debugImage {
+    border: 1px solid #ddd;
+    display: none;
+    image-rendering: pixelated;
+}

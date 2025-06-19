@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Pytest
+.cache
+pytestdebug.log
+
+# Coverage
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code settings
+.vscode/
+
+# Rope project settings
+.ropeproject/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Additional Python patterns
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ipynb_checkpoints
+
+# Additional ML/Data related
+data/
+models/
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Additional Node/React
+.cache/
+.parcel-cache/
+.next/
+/client/.cache/
+/client/public/debug_image.png
+
+# Additional development tools
+/.pnp
+.pnp.js
+.yarnrc
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Temporary files
+tmp/
+temp/
+.temp/
+*~
