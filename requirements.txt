@@ -5,3 +5,4 @@ flask-cors>=3.0.10
 matplotlib>=3.3.4
 scikit-learn>=0.24.1
 pillow>=8.2.0
+gunicorn
